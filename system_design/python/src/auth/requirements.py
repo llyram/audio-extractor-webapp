@@ -1,0 +1,12 @@
+cffi==1.15.1
+click==8.1.3
+cryptography==39.0.2
+Flask==2.2.3
+Flask-MySQLdb==1.0.1
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.2
+mysqlclient==2.1.1
+pycparser==2.21
+PyJWT==2.6.0
+Werkzeug==2.2.3
