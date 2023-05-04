@@ -3,3 +3,10 @@
 [Microservice Architecture and System Design with Python & Kubernetes – Full Course](https://youtu.be/hmkF77F9TLw)
 
 ![overview](overview.png)
+
+## Dependencies
+
+- MySQL
+- Docker
+- Kubernetes
+- Minikube
