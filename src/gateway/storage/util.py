@@ -46,7 +46,7 @@ def upload(f, fs, channel, access):
         channel.basic_publish(
             exchange="", # default
             routing_key="video", # name of the rabbitMQ queue
-            body=json.dumps(message) # converts python object to json string
+            body=json.dumps(message), # converts python object to json string
             properties=pika.BasicProperties(
                 delivery_mode=pika.spec.PERSISTENT_DELIVERY_MODE
             )
